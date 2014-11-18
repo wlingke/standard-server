@@ -7,9 +7,16 @@ var bodyParser = require('body-parser');
 var app = express();
 app.set('port', process.env.PORT || 3000);
 
-// Logging
+// Development logging & playground
 if (app.get('env') !== 'production') {
+    app.engine('html', require('ejs').renderFile);
+    app.set('view engine', 'html');
     app.use(morgan('dev'));
+    app.set('views', 'playground');
+    app.use('/playground/static', express.static('playground/static'));
+    app.get('/playground', function (req, res, next) {
+        res.render('index');
+    });
 }
 
 //Renders invalid api error catching
