@@ -1,7 +1,7 @@
-Building to Production
+Starting the Server
 ----------------------
-SASS files are compiled from `/sass` to `/static/stylesheets`
-All production files should have matching folders in `/production` (ie `/production/static`, `/production/views`, `/production/stylesheets`, etc.)
+`grunt dev` - for development server
+`grunt prod` - for production server
 
 Start Script
 -------------

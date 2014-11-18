@@ -5,32 +5,22 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/wlingke/standard-website"
+    "url": "https://github.com/wlingke/standard-server"
   },
   "author": "Lingke Wang",
   "bugs": {
-    "url": "https://github.com/wlingke/standard-website/issues"
+    "url": "https://github.com/wlingke/standard-server/issues"
   },
   "dependencies": {
     "body-parser": "^1.9.2",
-    "ejs": "^1.0.0",
     "express": "~4.2.0",
     "forever": "^0.11.1",
     "forever-monitor": "~1.2.3",
     "lodash": "^2.4.1",
     "minimist": "^1.1.0",
-    "morgan": "^1.4.1"
-  },
-  "devDependencies": {
+    "morgan": "^1.4.1",
     "grunt": "~0.4.1",
-    "grunt-bg-shell": "~2.3.0",
-    "grunt-contrib-clean": "^0.5.0",
-    "grunt-contrib-compass": "~0.6.0",
-    "grunt-contrib-copy": "^0.5.0",
-    "grunt-contrib-cssmin": "^0.10.0",
-    "grunt-contrib-watch": "~0.5.3",
     "grunt-nodemon": "^0.2.1",
-    "grunt-processhtml": "^0.3.3",
     "load-grunt-tasks": "^0.4.0"
   }
 }
