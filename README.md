@@ -32,3 +32,8 @@ Developer Notes
 ---------------
 We use forever-monitor 1.2.x only because in 1.3.0, you are unable to kill child process with control-c.
 https://github.com/nodejitsu/forever-monitor/issues/80
+
+#####Examples:
+- [Life Insurance Settlements](https://www.ovidlife.com)
+- [Calculator for Life Settlements](https://www.ovidlife.com/life-settlement-calculator)
+- [Ovid Senior Resources Blog](http://blog.ovidlife.com)
